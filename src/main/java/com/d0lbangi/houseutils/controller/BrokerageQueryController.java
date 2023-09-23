@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Happy
+ *
+ * 중개수수료가 얼마인지 조회하는 컨트롤러
  */
 
 @RestController
