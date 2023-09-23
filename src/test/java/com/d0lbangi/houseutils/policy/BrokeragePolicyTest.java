@@ -13,7 +13,7 @@ public class BrokeragePolicyTest {
     RentBrokeragePolicy rentBrokeragePolicy;
 
     @BeforeEach
-    public void  setup() {
+    public void setup() {
         purchaseBrokeragePolicy = new PurchaseBrokeragePolicy();
         rentBrokeragePolicy = new RentBrokeragePolicy();
     }
