@@ -3,3 +3,16 @@ GET {{host}}/api/calc/brokerage?actionType=PURCHASE&price=1000000000
 
 #### 중개수수료 - 임대차
 GET {{host}}/api/calc/brokerage?actionType=RENT&price=1000000000
+
+#### 중개수수료 - 매매
+GET {{host}}/api/calc/apartment/1?actionType=PURCHASE
+
+#### 중개수수료 - 임대차
+GET {{host}}/api/calc/apartment/1?actionType=RENT
+
+
+#INSERT INTO apartment(id, name, address) VALUES(1, '퍼스트 클래스 아파트', '서울시 강남구', 100_000_000);
+#INSERT INTO apartment(id, name, address) VALUES(2, '리버뷰 아파트', '서울시 송파구', 80_000_000);
+
+
+#SELECT *FROM APARTMENT
